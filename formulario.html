@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+
+</head>
+
+<body>
+
+    <script type="text/JavaScript" src="/js/principal.js"></script>
+    <script type="text/JavaScript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <a name="inicio"></a>
+    <h1 class="example">Práctica 52</h1>
+
+        <nav>
+            <ul>
+                <li type="none">
+                    <a href="/index.html" class="status_off boton">Inicio</a>
+                    <a href="/tablas.html" class="status_off boton">Registros</a>
+                    <a href="https://www.linkedin.com/in/roberto-jaime-rico-sandoval-53aa50141/" class="status_off boton">Linkenln</a>
+                    <a href="https://www.youtube.com/channel/UC8d0z5Xa72K9ECUSSuJjkeA" class="status_off boton">Youtube</a>
+                    <a href="https://github.com/RobertShilo98" class="status_off boton">GitHub</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <img width="20%" src="/imagenes/programa.png" class="imagenes" alt="Persona programando."/>
+        </header>
+
+        <section>
+
+            <fieldset>
+
+                <label for="html" class="etiquetas">Nombre de usuario</label><br/>
+                <input type="text" placeholder="Nombre(s)" />
+                <input type="text" placeholder="Apellidos" />
+                
+                <br/>
+                <label for="html" class="etiquetas">Contraseña</label>
+                <br/>
+                <input type="password" placeholder="Password *****" />
+
+                <br/>
+                <label for="html" class="etiquetas">Sexo</label>
+                <br/>
+                <input type="checkbox"/>
+                <label for="html" class="etiquetas_pequeñas">Hombre</label>
+                <input type="checkbox"/>
+                <label for="html" class="etiquetas_pequeñas">Mujer</label>
+                <input type="checkbox"/>
+                <label for="html" class="etiquetas_pequeñas">otros</label>
+                
+                <br/>
+                <label for="html" class="etiquetas">Actividad personal</label>
+                <br/>
+                <input type="radio" value="Estudiante." name="Actividad"/>
+                <label for="html" class="etiquetas_pequeñas" style="width: 14%;">Estudiante</label>
+                <br/>
+                <input type="radio" value="Empleado" name="Actividad"/>
+                <label for="html" class="etiquetas_pequeñas" style="width: 14%;">Empleado</label>
+                <br/>
+                <input type="radio" value="Busca" name="Actividad"/>
+                <label for="html" class="etiquetas_pequeñas" style="width: 14%;">Otros</label>
+
+                <br/>
+                <input onclick="reseteo()" type="reset" value="Limpiar formulario"/>
+                <input onclick="verif()" class="boton_de_envio" type="submit" value="enviar datos"/>
+                <input onclick="cancelar()" class="boton_cancelar" type="submit" value="cancelar envio"/>
+
+            </fieldset>
+
+        </section>
+
+        <h3 class="linea_de_pie"> </h3>
+        <footer id="pie_index">
+
+            <a href="#inicio" class="status_off">ir a inicio</a>
+            <p>
+                Trabajo realizado por R.J.R.S.
+            <img width="5%" align="left" class="borde" src="/imagenes/yo.jpg" alt="Foto del desarrollador de la página"/>
+            </p>
+
+        </footer>
+    
+    </body>
+
+</html>
+
